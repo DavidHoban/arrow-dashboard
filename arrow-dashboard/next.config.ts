@@ -1,7 +1,4 @@
-import type { NextConfig } from 'next';
+js/** @type {import('next').NextConfig} */
+const nextConfig = {};
 
-const nextConfig: NextConfig = {
-  // Allow fetching from Google Sheets
-};
-
-export default nextConfig;
+module.exports = nextConfig;
