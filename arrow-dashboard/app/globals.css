@@ -9,13 +9,12 @@
 
   body {
     @apply antialiased;
+    background-color: #EDEAE6;
+    color: #1C1C1C;
   }
 }
 
 @layer utilities {
-  .hover\:bg-white\/3:hover {
-    background-color: rgba(255, 255, 255, 0.03);
-  }
   .line-clamp-2 {
     display: -webkit-box;
     -webkit-line-clamp: 2;
